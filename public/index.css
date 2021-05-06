@@ -30,8 +30,6 @@ h2 {
   margin-bottom: 18px;
 }
 
-section {
-}
 
 hr {
   border: none;
@@ -39,7 +37,8 @@ hr {
   margin: 20px 0;
 }
 
-input[type="submit"] {
+input[type="submit"],
+button[type="submit"] {
   background: #03a8d8;
   border-radius: 4px;
   color: #ffffff;

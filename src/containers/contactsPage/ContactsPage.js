@@ -6,6 +6,8 @@ import { TileList } from "../../components/tileList/TileList";
 export const ContactsPage = (props) => {
   const contacts = props.contacts;
 
+  console.log(`I am here ${contacts}`);
+
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
@@ -59,7 +61,7 @@ export const ContactsPage = (props) => {
       <hr />
       <section>
         <h2>Contacts</h2>
-        <TileList contacts={contacts} />
+        <TileList tiles={contacts} />
       </section>
     </div>
   );
