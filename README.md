@@ -1,4 +1,4 @@
-# Appointments Project
+# Appointments React Project 
 
 You can add contacts with the name , phone and email that you will for appointments.
 ![image](https://user-images.githubusercontent.com/75714102/117320865-ea085080-ae8c-11eb-9b51-0d7cfe3e8047.png)
